@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   jdbc, cache, ws, specs2 % Test,
   "org.jooq" % "jooq" % "3.6.2",
   "org.jooq" % "jooq-meta" % "3.6.2",
-  "org.jooq" % "jooq-codegen" % "3.6.2"
+  "org.jooq" % "jooq-codegen" % "3.6.2",
+  "postgresql" % "postgresql" % "9.1-901-1.jdbc4"
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
